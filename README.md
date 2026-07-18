@@ -68,9 +68,11 @@ Bootstrap-Ensemble-Multimodal-DR-Detection/
 ├── Bootstrap_Ensemble_Multimodal_DR_Detection.ipynb
 │
 ├── datasets/
-│   ├── APTOS2019/
-│   └── OCT2017/
-│
+│   ├── README.md
+│   └── samples/
+│       ├── fundus_sample.png
+│       └── oct_sample.jpeg
+|
 ├── models/
 │   ├── best_ResNet_octa_model.pth
 │   ├── best_DenseNet_fundus_model.pth
