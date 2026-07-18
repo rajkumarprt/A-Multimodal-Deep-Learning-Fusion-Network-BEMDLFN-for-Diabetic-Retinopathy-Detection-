@@ -1,0 +1,30 @@
+{
+    "extraction_time": "2026-01-30 14:33:41.896823",
+    "fundus": {
+        "accuracy": 1.0
+    },
+    "octa": {},
+    "fusion": {},
+    "hybrid": {},
+    "baselines": {
+        "fundus": {
+            "accuracy": 0.9577080491132333,
+            "f1": 0.9590488771466315,
+            "roc_auc": 0.9924001730284453
+        },
+        "octa": {
+            "accuracy": 0.9563,
+            "precision": 0.9508,
+            "recall": 0.9635,
+            "f1": 0.958
+        }
+    },
+    "prediction_times": {
+        "DenseNet-121 (Baseline)": 0.1,
+        "ResNet-50 (Baseline)": 0.15,
+        "Bootstrap + DenseNet-121": 0.25,
+        "Bootstrap + ResNet-50": 0.35,
+        "Bootstrap + DenseNet-121 + Voting": 0.3,
+        "Bootstrap + ResNet-50 + Voting": 0.4
+    }
+}
