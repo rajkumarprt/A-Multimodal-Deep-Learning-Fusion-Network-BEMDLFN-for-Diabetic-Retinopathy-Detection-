@@ -1,7 +1,7 @@
 # A-Multimodal-Deep-Learning-Fusion-Network-BEMDLFN-for-Diabetic-Retinopathy-Detection-
----
 This project presents a Bootstrap-Ensemble Multimodal Deep Learning Fusion Network (BEMDLFN) for automated diabetic retinopathy (DR) detection using complementary retinal imaging modalities, namely Fundus photographs and Optical Coherence Tomography Angiography (OCTA) images. The framework integrates a Bootstrap-Ensemble DenseNet121 model for structural lesion analysis from fundus images and a Bootstrap-Ensemble ResNet50 model for microvascular feature extraction from OCTA images. Feature-level fusion is employed to combine structural and vascular retinal biomarkers, while bootstrap aggregation and soft-voting enhance model diversity, robustness, and generalization.
 Experiments conducted on the APTOS 2019 Fundus Dataset and OCT2017 OCTA Dataset demonstrate the effectiveness of the proposed multimodal framework. The model achieved 97.93% Accuracy, 98.06% F1-Score, and 99.74% ROC-AUC, outperforming conventional CNN, VGG16, InceptionV3, EfficientNetB3, ResNet18, DenseNet121, and ResNet50 architectures. The proposed system provides a reliable computer-aided screening solution for early diabetic retinopathy detection and clinical decision support by jointly leveraging retinal structural abnormalities and microvascular changes. 
+
 ---
 # Proposed Framework
 The proposed BEMDLFN architecture consists of five major stages:
@@ -20,7 +20,6 @@ DenseNet121 is employed to learn retinal structural abnormalities including:
 - Cotton wool spots
 - Optic disc abnormalities
 
-----
 
 ### 2. OCTA Image Processing
 
@@ -51,7 +50,6 @@ The framework utilizes publicly available retinal imaging datasets.
 
 Contains color fundus photographs annotated for diabetic retinopathy severity.
 
-----
 
 ## OCTA Dataset
 
@@ -60,8 +58,6 @@ Contains color fundus photographs annotated for diabetic retinopathy severity.
 Contains Optical Coherence Tomography Angiography retinal scans used for extracting retinal vascular features.
 
 ---
-## Project Structure
-
 ## Project Structure
 
 ```text
